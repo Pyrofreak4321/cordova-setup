@@ -1,0 +1,60 @@
+*.log
+
+# ANDROID
+
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+*/plugins/**
+!*/plugins/*.json
+
+# generated files - android project subfolder
+*/platforms/android/bin/
+*/platforms/android/gen/
+*/platforms/android/assets/
+*/platforms/android/.idea/
+*/platforms/android/.gradle/
+*/platforms/android/cordova/
+*/platforms/android/cordovaLib/
+*/platforms/android/platform_www/
+
+# generated files
+bin/
+gen/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# IOS / Xcode
+build/*
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.xcworkspace
+!default.xcworkspace
+xcuserdata
+profile
+*.moved-aside
+IOS/www/
+
+# generated files - android project subfolder
+*/platforms/android/bin/
+*/platforms/android/gen/
+*/platforms/android/assets/
+*/platforms/android/.idea/
+*/platforms/android/.gradle/
+*/platforms/ios/cordova/
+*/platforms/ios/cordovaLib/
+*/platforms/ios/platform_www/
