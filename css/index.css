@@ -1,0 +1,49 @@
+
+@-webkit-keyframes spin {
+    from {-webkit-transform: rotate(0deg);}
+    to {-webkit-transform: rotate(360deg);}
+}
+
+.spinner{
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  border-color: #ffffff;
+  border-top-color: #2b28d2;
+  border-style: solid;
+  border-width: 5px;
+  border-radius:50%;
+  -webkit-animation: spin 3s linear 0s infinite
+}
+
+input[type=button]:focus{
+    outline: none;
+}
+
+._wrapper {
+  margin: 0 auto -4em;
+}
+
+._footer{
+  height: 4em;
+  width: 100%;
+}
+
+._vmiddle_outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+._vmiddle_middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+._vmiddle_inner {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+}

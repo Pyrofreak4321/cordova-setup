@@ -23,7 +23,7 @@ var controller = {
                 navigator.notification.alert(
                     message,    // message
                     null,       // callback
-                    "New App", // title
+                    "Syracuse Connect", // title
                     'OK'        // buttonName
                 );
             };

@@ -12,8 +12,11 @@
 # Java class files
 *.class
 
-*/plugins/**
-!*/plugins/*.json
+**/plugins/**
+!**/plugins/*.json
+
+**/plugin/**
+!**/plugin/*.json
 
 # generated files - android project subfolder
 */platforms/android/bin/
@@ -21,9 +24,6 @@
 */platforms/android/assets/
 */platforms/android/.idea/
 */platforms/android/.gradle/
-*/platforms/android/cordova/
-*/platforms/android/cordovaLib/
-*/platforms/android/platform_www/
 
 # generated files
 bin/
@@ -48,13 +48,3 @@ xcuserdata
 profile
 *.moved-aside
 IOS/www/
-
-# generated files - android project subfolder
-*/platforms/android/bin/
-*/platforms/android/gen/
-*/platforms/android/assets/
-*/platforms/android/.idea/
-*/platforms/android/.gradle/
-*/platforms/ios/cordova/
-*/platforms/ios/cordovaLib/
-*/platforms/ios/platform_www/
