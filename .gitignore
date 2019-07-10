@@ -12,22 +12,18 @@
 # Java class files
 *.class
 
-**/plugins/**
-!**/plugins/*.json
+**/node_modules/**
+*/node_modules
 
-**/plugin/**
-!**/plugin/*.json
+**/plugins/**
 
 # generated files - android project subfolder
-*/platforms/android/bin/
-*/platforms/android/gen/
-*/platforms/android/assets/
-*/platforms/android/.idea/
-*/platforms/android/.gradle/
+*/platforms/*
 
 # generated files
 bin/
 gen/
+
 
 # Local configuration file (sdk path, etc)
 local.properties
@@ -48,3 +44,5 @@ xcuserdata
 profile
 *.moved-aside
 IOS/www/
+
+*.DS_Store

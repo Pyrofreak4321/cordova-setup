@@ -13,7 +13,8 @@
 
 + `cordova-spash`
 
-+ `cordova build android --release -- --keystore=../<keystoreName>.keystore --alias=XXXX`
++ `cordova build android --release -- --keystore=../XXXX.keystore --alias=XXXX --storePassword=XXXX --password=XXXX`
++ `must escape specail chars ex: \!, \$, \?`
 
 + `keytool -genkey -v -keystore ../<keystoreName>.keystore -alias <Keystore AliasName> -keyalg rsa -keysize 2048 -validity 10000`
 
